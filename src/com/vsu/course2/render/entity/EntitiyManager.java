@@ -29,8 +29,8 @@ public class EntitiyManager {
     public void init() throws IOException {
         //this.entities.add(BasicEntityBuilder.createCube(100,0,0,0));
         //this.entities.add(ComplexEntityBuilder.createRubiksCube(100, 0, 0, 0));
-        //this.entities.add(BasicEntityBuilder.createDiamond(new Color(115, 236, 255),100,0,0,0));
-        this.entities.add(BasicEntityBuilder.createKleinBottle(new Color(115, 236, 255),100,0,0,-250));
+        this.entities.add(BasicEntityBuilder.createDiamond(new Color(115, 236, 255),100,0,0,0));
+        //this.entities.add(BasicEntityBuilder.createKleinBottle(new Color(115, 236, 255),100,0,0,-250));
         //this.entities.add(BasicEntityBuilder.createDodecahedron(Color.RED, 100,0,0,0));
     }
 
